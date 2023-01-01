@@ -48,6 +48,12 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="SimpleLogger.cs" />
         <Compile Include="SymmetricAlgorithmHelper.cs" />
+        <Compile Include="WebRequest\HtmlAnalyseFailedException.cs" />
+        <Compile Include="WebRequest\ImageResponseData.cs" />
+        <Compile Include="WebRequest\PageResponseData.cs" />
+        <Compile Include="WebRequest\RequestContentType.cs" />
+        <Compile Include="WebRequest\WebRequestFailedException.cs" />
+        <Compile Include="WebRequest\WebRequestUtility.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
